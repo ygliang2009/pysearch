@@ -1,0 +1,3 @@
+#!/bin/bash
+nohup python Server.py 1>&2 2 >> "/dev/null"
+echo "server start up"
